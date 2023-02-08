@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(139, 202, 233, 0.381);
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+form{
+    background-color: aqua;
+    text-align: center;
+}
+.btnsbt{
+    background: blue;
+    color: white;
+    padding: 10px;
+    width: 30%;
+    border-radius: 19px;
+    margin-top: 10px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.mainForme{
+    width: 50%;
+}
+input{
+    border: 2px solid red;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .btntd1{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    margin: 2px;
+  }
+  .btntd2{
+    background-color: rgb(255, 77, 0);
+    color: white;
+    width: 100%;
+    margin: 2px;
+  }
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px;
+    width: 100px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #9b9090;
+  }
+  @media screen and (max-width: 992px) {
+    .container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .mainForme{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .mainForme{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 425px ) {
+    .container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .mainForme{
+        width: 100%;
+    }
+  }
